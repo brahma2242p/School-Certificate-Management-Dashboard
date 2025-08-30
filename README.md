@@ -42,16 +42,16 @@ The system offers **role-based dashboards** for Admins, Teachers, and Parents to
 - **Architecture:** Role-based dashboards (Admin, Teacher, Parent)  
 
 ---
-
 ## 📂 Project Structure  
 
 ```bash
 School-Certificate-Management-Dashboard/
-│── assets/           # CSS, JS, Images
-│── config/           # Database connection files
-│── admin/            # Admin dashboard
-│── teacher/          # Teacher dashboard
-│── parent/           # Parent dashboard
-│── certificates/     # Certificate generation & storage
-│── index.php         # Login page
-│── README.md         # Documentation
+│── DATABASE FILE/        # SQL files for database
+│── application/          # Core application logic
+│── applicationForm/      # Forms for user input
+│── assets/               # CSS, JS, Images
+│── system/               # Core PHP system files
+│── uploads/              # Uploaded certificates/documents
+│── index.php             # Login page
+│── 01 LOGIN DETAILS & PROJECT INFO.txt  # Default login info
+│── README.md             # Documentation
